@@ -1,1 +1,8 @@
-
+if __ name__ == '__main__':
+  n = int(input().strip())
+  check = {True:"Not Wired",False:"Wired"}
+  print(check[
+    n%2 == 0 and
+    n in range(2,6) or
+    n > 20
+  ])
